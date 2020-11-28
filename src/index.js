@@ -59,12 +59,12 @@ module.exports = function toReadable (number) {
                     result = `${result} ${wordNumber[i - 1]}`;
                 }   
             }
-        } else if (secondNum === 1) {
+           } else if (secondNum === 1) {
             for (let i = 0; i < 10; i++) {
                 if (thirdNum === i) {
                     result = `${result} ${dozens[i]}`;
                 }   
-            }
+              }
             } else {
                 for (let i = 2; i < 10; i++) {
                     if (+String(number).slice('')[1] === i) {
